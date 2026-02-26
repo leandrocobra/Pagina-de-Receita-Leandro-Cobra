@@ -1,2 +1,35 @@
-img{border-radius: 16px;
+body {
+
+    /*margin: 0;*/
+    min-height: 100vh;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+
+    background-image: url("assets/Macarronada.png");
+    background-size: cover;
+    background-position: center;
+    transform: scale(1.10);
+
+    filter: blur(10px);
+    z-index: -1;
+}
+
+#page{
+    box-sizing: border-box;
+    width: 800px;
+    padding: 24px;
+    background-color: coral;
+    margin: 48px auto;
+    border-radius: 16px;
+}
+
+img {
+    border-radius: 16px;
+    width: 100%;
+    height: auto;
+    display: block;
 }
