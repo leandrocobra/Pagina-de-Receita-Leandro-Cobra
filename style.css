@@ -33,7 +33,7 @@ body::before {
     width: 800px;
     padding: 24px;
     background-color: rgb(255, 162, 100);
-    margin: 48px auto;
+    margin: 48px auto 0;
     border-radius: 16px;
 }
 
@@ -53,11 +53,9 @@ img {
 }
 
 footer{
-    box-sizing: border-box;
     background-color: rgb(255, 162, 100);
     width: 350px;
-    padding: 1px;
-    margin: 12px auto;
+    margin: 28px auto 48px;
     text-align: center;
     border-radius: 16px;
 }
